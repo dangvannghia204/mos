@@ -1,0 +1,160 @@
+{
+    "Question_ID": "MOS-EXCEL-001",
+    "Target_File": "2019_Excel_P106_IC3.xlsx",
+    "Tasks": [
+        {
+            "Task_ID": "T1",
+            "Location": {
+                "Scope": "Workbook"
+            },
+            "Property": "Doc_Title",
+            "Expected_Value": "Version 20230328"
+        },
+        {
+            "Task_ID": "T2",
+            "Location": {
+                "Scope": "Workbook"
+            },
+            "Property": "Chart_Sheet",
+            "Expected_Value": "Living Online Chart"
+        },
+        {
+            "Task_ID": "T3",
+            "Location": {
+                "Sheet": "Computing Fundamentals"
+            },
+            "Property": "Column_Width_Group",
+            "Expected_Value": "C:J::15.83"
+        },
+        {
+            "Task_ID": "T4",
+            "Location": {
+                "Sheet": "Computing Fundamentals",
+                "Range": "E1:E30"
+            },
+            "Property": "Wrap_Text_Group",
+            "Expected_Value": "True"
+        },
+        {
+            "Task_ID": "T5",
+            "Location": {
+                "Sheet": "Computing Fundamentals",
+                "Range": "E32:E34"
+            },
+            "Property": "Wrap_Text_Group",
+            "Expected_Value": "True"
+        },
+        {
+            "Task_ID": "T6",
+            "Location": {
+                "Sheet": "Living Online"
+            },
+            "Property": "Column_Width",
+            "Expected_Value": "F::8.33"
+        },
+        {
+            "Task_ID": "T7",
+            "Location": {
+                "Sheet": "Living Online",
+                "Range": "A1:G30"
+            },
+            "Property": "Table_Exists",
+            "Expected_Value": "Table1"
+        },
+        {
+            "Task_ID": "T8",
+            "Location": {
+                "Sheet": "Living Online",
+                "Range": "A1:G30"
+            },
+            "Property": "Table_Style",
+            "Expected_Value": "TableStyleMedium7"
+        },
+        {
+            "Task_ID": "T9",
+            "Location": {
+                "Sheet": "Living Online",
+                "Range": "A1:G30"
+            },
+            "Property": "Table_Row_Stripes",
+            "Expected_Value": "True"
+        },
+        {
+            "Task_ID": "T10",
+            "Location": {
+                "Sheet": "Living Online"
+            },
+            "Property": "Charts_Count",
+            "Expected_Value": "0"
+        },
+        {
+            "Task_ID": "T11",
+            "Location": {
+                "Sheet": "Key Applications",
+                "Cell": "F32"
+            },
+            "Property": "Formula",
+            "Expected_Value": "=COUNTBLANK(F2:F30)"
+        },
+        {
+            "Task_ID": "T12",
+            "Location": {
+                "Sheet": "Key Applications",
+                "Range": "A35:A37"
+            },
+            "Property": "Cell_Style_Group",
+            "Expected_Value": "Check Cell"
+        },
+        {
+            "Task_ID": "T13",
+            "Location": {
+                "Sheet": "Key Applications",
+                "Range": "A35:A37"
+            },
+            "Property": "Font_Bold_Group",
+            "Expected_Value": "True"
+        },
+        {
+            "Task_ID": "T14",
+            "Location": {
+                "Sheet": "Key Applications",
+                "Range": "A35:A37"
+            },
+            "Property": "Font_Color_Group",
+            "Expected_Value": "theme_0_0.0"
+        },
+        {
+            "Task_ID": "T15",
+            "Location": {
+                "Sheet": "Key Applications",
+                "Range": "A35:A37"
+            },
+            "Property": "Fill_Color_Group",
+            "Expected_Value": "FFA5A5A5"
+        },
+        {
+            "Task_ID": "T16",
+            "Location": {
+                "Scope": "Workbook"
+            },
+            "Property": "Chart_Style_Count",
+            "Expected_Value": "Style_11::1"
+        },
+        {
+            "Task_ID": "T17",
+            "Location": {
+                "Scope": "Workbook"
+            },
+            "Property": "Chart_Color_Palette_Count",
+            "Expected_Value": "Palette_11::1"
+        },
+        {
+            "Task_ID": "T18",
+            "Location": {
+                "Scope": "Workbook"
+            },
+            "Property": "Chart_Color_Count",
+            "Expected_Value": "ChartColor_11::1"
+        }
+    ]
+}

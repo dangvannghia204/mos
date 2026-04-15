@@ -1,0 +1,157 @@
+{
+    "Question_ID": "MOS-EXCEL-001",
+    "Target_File": "2019_Excel_P102_CarInventory.xlsx",
+    "Tasks": [
+        {
+            "Task_ID": "T1",
+            "Location": {
+                "Sheet": "Instructors"
+            },
+            "Property": "Column_Width",
+            "Expected_Value": "B::31.73"
+        },
+        {
+            "Task_ID": "T2",
+            "Location": {
+                "Sheet": "Instructors"
+            },
+            "Property": "Column_Width",
+            "Expected_Value": "C::10.54"
+        },
+        {
+            "Task_ID": "T3",
+            "Location": {
+                "Sheet": "Instructors"
+            },
+            "Property": "Column_Width",
+            "Expected_Value": "D::31.73"
+        },
+        {
+            "Task_ID": "T4",
+            "Location": {
+                "Sheet": "Instructors"
+            },
+            "Property": "Column_Width",
+            "Expected_Value": "E::10.54"
+        },
+        {
+            "Task_ID": "T5",
+            "Location": {
+                "Sheet": "Instructors"
+            },
+            "Property": "Column_Width",
+            "Expected_Value": "F::31.73"
+        },
+        {
+            "Task_ID": "T6",
+            "Location": {
+                "Sheet": "Instructors"
+            },
+            "Property": "Column_Width",
+            "Expected_Value": "G::10.54"
+        },
+        {
+            "Task_ID": "T7",
+            "Location": {
+                "Sheet": "Instructors"
+            },
+            "Property": "Column_Width",
+            "Expected_Value": "H::42.45"
+        },
+        {
+            "Task_ID": "T8",
+            "Location": {
+                "Sheet": "Instructors",
+                "Range": "A1:B3"
+            },
+            "Property": "Table_Exists",
+            "Expected_Value": "Instructor_P102"
+        },
+        {
+            "Task_ID": "T9",
+            "Location": {
+                "Sheet": "Instructors",
+                "Range": "A1:B3"
+            },
+            "Property": "Table_Style",
+            "Expected_Value": "TableStyleMedium7"
+        },
+        {
+            "Task_ID": "T10",
+            "Location": {
+                "Sheet": "Instructors",
+                "Range": "A1:B3"
+            },
+            "Property": "Table_Row_Stripes",
+            "Expected_Value": "True"
+        },
+        {
+            "Task_ID": "T11",
+            "Location": {
+                "Sheet": "Enrollment"
+            },
+            "Property": "Freeze_Panes",
+            "Expected_Value": "B3"
+        },
+        {
+            "Task_ID": "T12",
+            "Location": {
+                "Sheet": "Enrollment",
+                "Range": "A2:E6"
+            },
+            "Property": "Table_Style",
+            "Expected_Value": "TableStyleMedium1"
+        },
+        {
+            "Task_ID": "T13",
+            "Location": {
+                "Sheet": "Enrollment"
+            },
+            "Property": "Sparklines_Count",
+            "Expected_Value": "4"
+        },
+        {
+            "Task_ID": "T14",
+            "Location": {
+                "Sheet": "Enrollment",
+                "Range": "E3:E6"
+            },
+            "Property": "Sparkline_Group",
+            "Expected_Value": "column"
+        },
+        {
+            "Task_ID": "T15",
+            "Location": {
+                "Sheet": "Bank Deposits"
+            },
+            "Property": "Column_Width_Group",
+            "Expected_Value": "B:G::12.63"
+        },
+        {
+            "Task_ID": "T16",
+            "Location": {
+                "Sheet": "Car Inventory",
+                "Range": "G1:G1048576"
+            },
+            "Property": "Conditional_Formatting",
+            "Expected_Value": "iconSet::3TrafficLights1"
+        },
+        {
+            "Task_ID": "T17",
+            "Location": {
+                "Sheet": "Figure",
+                "Cell": "L10"
+            },
+            "Property": "Formula",
+            "Expected_Value": "=SUM(Total1,Total2,Total3)"
+        },
+        {
+            "Task_ID": "T18",
+            "Location": {
+                "Scope": "Workbook"
+            },
+            "Property": "Drawing_Alt_Text",
+            "Expected_Value": "Yearly Revenue::1"
+        }
+    ]
+}

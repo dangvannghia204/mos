@@ -1,0 +1,79 @@
+***Project 1:
+1. Configure the “Exam booking” worksheet so that only cells A7:I46 will be printed.
+2. On the “Weekly Summary” worksheet, filter the table data to display only the exams with a “Certiport ID” of “90039921”.
+3. On the “Suppliers” worksheet, in the “Discount” colum, use a function to display “Yes” if the “Quantity in Stock” is greater than 6000. Otherwise, display “No”
+4. On the “Suppliers” worksheet, perform a multi-level sort. Sort the table by “Toy Category” (A to Z) and then by “Supplier Name” (A to Z).
+5. On the “Customers” worksheet, in the “Email Address” column, use a function to construct email addresses for each person using the first name and “abc.com”
+6. On the “Exam Bookings” worksheet, configure the table style option to automatically shade every other table row.
+7. On the “Exam Bookings” worksheet, move the chart to a new chart sheet named “Fee Chart”.
+8. Remove all conditional formatting rules from the “Suppliers” worksheet.
+
+***Project2:
+1. On the “Instructors” worksheet, beginning at cell A1, import the data from the Instructors text file in the Documents folder. Use the first row of the data source as headers.
+2. On the “Bank Deposit” worksheet, adjust the width of column B:G exactly 12.
+3. On the “Enrollment worksheet, in cells E2:E6, insert Column sparklines to compare the last, current, and the next term values for each test site.
+4. On the “Enrollment” worksheet, freeze rows 1 and 2 so that the title header and left column are always visible when scrolling.
+5. On the “Figure” worksheet, in cell L10, enter a formula that sums the values in the ranges “Total1”,”Total2”, and “Total3”. Use range names in the formula instead of cell references or values.
+6. On the “Figure” worksheet, add the alt text description “Yearly Revenue” to the chart.
+7. On the “Car Inventory” worksheet, in the “Price” table column, use conditional formatting to apply the 3 Traffic Lights (Unrimmed) format to the values.
+8. On the “Enrollment” worksheet, apply the White, Table Style Medium 1 style to the table.
+
+***Project 3:
+1. Navigate to the range named “Convertible” and delete the contents of the selected cells.
+2. On the “Suppliers” worksheet, in cells F2:G11, format the cells to display the numbers to two decimal places.
+3. On the “Informatics Exam” worksheet, remove the table row that contains “IELTS” data. Do not change any content outside the table.
+4. On the “Gmetrix Account” worksheet, in the “Monthly Averange” column, use a function to calculate the average monthly quantity for each exam from January through April.
+5. On the “Gmetrix Account” worksheet, modify the chart to disply “Account” as the Primary Vertical Axis Title.
+6. On the “Used Car Sales” worksheet, assign left alignment to the text in cell A2.
+7. On the “Used Car Sales”worksheet, extend the formula in cell I6 to the end of the table column.
+8. On the “Suppliers” worksheet, use a function to display the highest number from the “Stock Value” column.
+
+***Project 4:
+1. On the “Demographics” worksheet, for the “Toys Category” chart, swap the data over the axis.
+2. Copy the formatting of the title and subtitle of the “Used Car Sales” worksheet and apply it to the title and subtitle of the “New Car Sales” worksheet.
+3. On the “Informatics Exam” chart sheet, remove the legend and display only the values as data labels above each column.
+4. On the “New Car Sales” worksheet, convert the table to a cell range. Keep the formatting.
+5. On the “Report” worksheet, create a Clustered Column chart that shows the “Quantity” for all months, with the month as the horizontal axis labels. Place the chart below the table. The exact size and position of the chart do not matter.
+6. On the “Demographics” worksheet, in the “TTC” column, use a function to display the first 2 characters of the “Category” from column B.
+7. In cell B10 on the “Report” worksheet, insert a function that joins the customer “Lastname” to the customer “Firstname” separated by a comma and space. (Example: Akkers, Leah).
+8. Insert page numbering in the center of the footer on the “Demographics” worksheet using the format Page 1 of ?
+
+***Project 5:
+1. Add a link into the QR image in the worksheet "Figure" to "https://www.youtube.com/@abc.com"
+2. On the "Informatics" worksheet, name the table "Informatics".
+3. On the "Figure" worksheet, for the "Revenue over the year" chart, display a data table without legend keys.
+4. On the "Sales by Exam" worksheet, remove the table functionallity from the table. Retain the font and cell formatting.
+5. On the "Informatics" worksheet, in the "Total" column, enter a formula that multiples the value in the "Quantity" column by "Fee" named range. Use the range name in the formula instead of a cell reference or value.
+6. On the "Informatics" worksheet, configure the table style options to automatically shade every other table row.
+7. On the "Figure" worksheet, merge across cells K3:L3. Do the same for the ranges K11:L11, K19:L19.
+8. On the "Figure" worksheet, apply the Heading 4 to K3, K11, K19 and Explanatory Text to K4:L4, K12:L12, K20:L20.
+
+***Project 6:
+1. On the "Computing Fundamentals" worksheet, apply the Colorful Palette 2 color to the chart.
+2. On the "Key Application" worksheet, in cell F32, use a function to determine how many students do not have an "PowerPoint" result.
+3. On the "Key Application" worksheet, using the Format Painter feature to copy to formatting from cells A32 to the cells A35:A37.
+4. Add the word "Version 20230328" to the Title property of the document.
+5. On the "Living Online" worksheet, format the data range A1:G30 as a table that has headers. Apply the Orange, Table Style Medium 7 (Table Style Medium 7) format.
+6. On the "Computing Fundamentals" worksheet, modify the column width of the columns B through J to 15.22.
+7. On the "Computing Fundamentals" worksheet, configure the "Backup and Restore" column so that entries wider than the column wrap to multiple lines.
+8. Move the chart on the "Living Online" worksheet as chart sheet named "Living Online Chart"
+
+***Project 7:
+1. On the "Sales by Exam" worksheet, display the formulas instead of the values.
+2. On the "Invoice" worksheet, move the cells E8:F23 up to correct the alignment by deleting cells E7:F7
+3. On the "Subcribe Results" worksheet, apply Style 7 and the Monchromatic Palette 6 color to the chart.
+4. Remove hidden properties and personal information from the workbook. Do not remove any other content.
+5. On the "Next Period" worksheet, create a Clustered Column chart that displays the Course" names and "Average cost per student" data. Place the chart to the right of the table. The exact size and position of the chart does not matter.
+6. On the "Lecturers" worksheet, convert the range A7:F11 to table with headers. Apply the Green, Table Style Light 14 style.
+7. On the "Exam History" worksheet, in the "Total Notice" column, use a function to display "Low" if the "Total Level" is less than 15%. Otherwise, leave the "Total Notice" blank.
+8. On the "Subcribe Results" worksheet, name the range A3:B7, "Registration".
+
+***Project 8:
+1. On the "Forecast" worksheet, in the "Quarter 2" column, enter a formula that multiplies the value in the "Quarter 1" column by the "Q2_Increase" named range. Use the range name in the formula instead of a cell reference or value.
+2. On the "Supplier" worksheet, remove the table row that contains "Wooden Toys" data. Do not change any content outside the table.
+3. On the "First half of the year" worksheet, change the horizontal alignment of the "Test site" names to Left (Indent). Set the indent to 1.
+4. On the "First half of the year" worksheet, in cells J4:J11, insert Win/Loss sparklines to compare the January to June values.
+5. On the "First half of the year" worksheet, add a Total Row to the table. Configure the Total Row to display the number of new policies for each month and for 6-month total.
+6. On the "First half of the year" worksheet, in the "Inactive" column, use a function to count the number of months with no new policies, by Test Site.
+7. On the "Top Toys Category" worksheet, perform a multi-level sort. Sort the table data by "Toys" (A to Z) and then by "Total Sales" (Largest to Smallest).
+8. On the "Last half of the year" worksheet, change the elements displayed on the chart by changing the chart layout to Layout 3.

@@ -1,0 +1,108 @@
+{
+    "Question_ID": "MOS-EXCEL-001",
+    "Target_File": "2019_Excel_P101_ExamBookings.xlsx",
+    "Tasks": [
+        {
+            "Task_ID": "T1",
+            "Location": {
+                "Scope": "Workbook"
+            },
+            "Property": "Chart_Sheet",
+            "Expected_Value": "Fee Chart"
+        },
+        {
+            "Task_ID": "T2",
+            "Location": {
+                "Sheet": "Exam Bookings"
+            },
+            "Property": "Print_Area",
+            "Expected_Value": "Table8[#All]"
+        },
+        {
+            "Task_ID": "T3",
+            "Location": {
+                "Sheet": "Exam Bookings",
+                "Range": "A7:I46"
+            },
+            "Property": "Table_Row_Stripes",
+            "Expected_Value": "True"
+        },
+        {
+            "Task_ID": "T4",
+            "Location": {
+                "Sheet": "Exam Bookings"
+            },
+            "Property": "Charts_Count",
+            "Expected_Value": "0"
+        },
+        {
+            "Task_ID": "T5",
+            "Location": {
+                "Sheet": "Weekly Summary"
+            },
+            "Property": "AutoFilter",
+            "Expected_Value": "B2:J10"
+        },
+        {
+            "Task_ID": "T6",
+            "Location": {
+                "Sheet": "Weekly Summary"
+            },
+            "Property": "AutoFilter_Col_0",
+            "Expected_Value": "90039921"
+        },
+        {
+            "Task_ID": "T7",
+            "Location": {
+                "Sheet": "Weekly Summary"
+            },
+            "Property": "Hidden_Rows",
+            "Expected_Value": "4,5,6,7,8,9,10"
+        },
+        {
+            "Task_ID": "T8",
+            "Location": {
+                "Sheet": "Suppliers",
+                "Range": "A1:H51"
+            },
+            "Property": "Table_SortState",
+            "Expected_Value": "C2:C51:0|B2:B51:0"
+        },
+        {
+            "Task_ID": "T9",
+            "Location": {
+                "Sheet": "Suppliers",
+                "Range": "H2:H51"
+            },
+            "Property": "Formula_Array",
+            "Expected_Value": "=IF(Table38[[#This Row],[QUANTITY IN STOCK]]>6000,\"Yes\",\"No\")"
+        },
+        {
+            "Task_ID": "T10",
+            "Location": {
+                "Sheet": "Suppliers",
+                "Range": "A2:H51"
+            },
+            "Property": "CF_Removed",
+            "Expected_Value": "True"
+        },
+        {
+            "Task_ID": "T11",
+            "Location": {
+                "Sheet": "Suppliers",
+                "Range": "C2:C51"
+            },
+            "Property": "CF_Removed",
+            "Expected_Value": "True"
+        },
+        {
+            "Task_ID": "T12",
+            "Location": {
+                "Sheet": "Customers",
+                "Range": "E2:E51"
+            },
+            "Property": "Formula_Array",
+            "Expected_Value": "=_xlfn.CONCAT(Table3[[#This Row],[First Name]],\"@abc.com\")"
+        }
+    ]
+}

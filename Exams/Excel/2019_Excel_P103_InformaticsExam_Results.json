@@ -1,0 +1,352 @@
+{
+    "Question_ID": "MOS-EXCEL-001",
+    "Target_File": "2019_Excel_P103_InformaticsExam.xlsx",
+    "Tasks": [
+        {
+            "Task_ID": "T1",
+            "Location": {
+                "Sheet": "Informatics Exam",
+                "Range": "A1:M5"
+            },
+            "Property": "Table_Exists",
+            "Expected_Value": "Table5"
+        },
+        {
+            "Task_ID": "T2",
+            "Location": {
+                "Sheet": "Informatics Exam",
+                "Range": "A3:A5"
+            },
+            "Property": "Value_Group",
+            "Expected_Value": "MOS|ICDL|Total"
+        },
+        {
+            "Task_ID": "T3",
+            "Location": {
+                "Sheet": "Informatics Exam",
+                "Range": "B3:B4"
+            },
+            "Property": "Value_Group",
+            "Expected_Value": "3270|5222"
+        },
+        {
+            "Task_ID": "T4",
+            "Location": {
+                "Sheet": "Informatics Exam",
+                "Range": "C3:C4"
+            },
+            "Property": "Value_Group",
+            "Expected_Value": "5465|3966"
+        },
+        {
+            "Task_ID": "T5",
+            "Location": {
+                "Sheet": "Informatics Exam",
+                "Range": "D3:D4"
+            },
+            "Property": "Value_Group",
+            "Expected_Value": "3811|3323"
+        },
+        {
+            "Task_ID": "T6",
+            "Location": {
+                "Sheet": "Informatics Exam",
+                "Range": "E3:E4"
+            },
+            "Property": "Value_Group",
+            "Expected_Value": "3258|4727"
+        },
+        {
+            "Task_ID": "T7",
+            "Location": {
+                "Sheet": "Informatics Exam",
+                "Range": "F3:F4"
+            },
+            "Property": "Value_Group",
+            "Expected_Value": "4092|4672"
+        },
+        {
+            "Task_ID": "T8",
+            "Location": {
+                "Sheet": "Informatics Exam",
+                "Range": "G3:G4"
+            },
+            "Property": "Value_Group",
+            "Expected_Value": "3671|6204"
+        },
+        {
+            "Task_ID": "T9",
+            "Location": {
+                "Sheet": "Informatics Exam",
+                "Range": "H3:H4"
+            },
+            "Property": "Value_Group",
+            "Expected_Value": "6105|4884"
+        },
+        {
+            "Task_ID": "T10",
+            "Location": {
+                "Sheet": "Informatics Exam",
+                "Range": "I3:I4"
+            },
+            "Property": "Value_Group",
+            "Expected_Value": "4773|4281"
+        },
+        {
+            "Task_ID": "T11",
+            "Location": {
+                "Sheet": "Informatics Exam",
+                "Range": "J3:J4"
+            },
+            "Property": "Value_Group",
+            "Expected_Value": "3420|5654"
+        },
+        {
+            "Task_ID": "T12",
+            "Location": {
+                "Sheet": "Informatics Exam",
+                "Range": "K3:K4"
+            },
+            "Property": "Value_Group",
+            "Expected_Value": "1930|4124"
+        },
+        {
+            "Task_ID": "T13",
+            "Location": {
+                "Sheet": "Informatics Exam",
+                "Range": "L3:L4"
+            },
+            "Property": "Value_Group",
+            "Expected_Value": "6539|3347"
+        },
+        {
+            "Task_ID": "T14",
+            "Location": {
+                "Sheet": "Informatics Exam",
+                "Range": "M3:M4"
+            },
+            "Property": "Value_Group",
+            "Expected_Value": "6290|5706"
+        },
+        {
+            "Task_ID": "T15",
+            "Location": {
+                "Sheet": "Informatics Exam",
+                "Cell": "B5"
+            },
+            "Property": "Formula",
+            "Expected_Value": "=SUBTOTAL(109,Table5[January])"
+        },
+        {
+            "Task_ID": "T16",
+            "Location": {
+                "Sheet": "Informatics Exam",
+                "Cell": "C5"
+            },
+            "Property": "Formula",
+            "Expected_Value": "=SUBTOTAL(109,Table5[February])"
+        },
+        {
+            "Task_ID": "T17",
+            "Location": {
+                "Sheet": "Informatics Exam",
+                "Cell": "D5"
+            },
+            "Property": "Formula",
+            "Expected_Value": "=SUBTOTAL(109,Table5[March])"
+        },
+        {
+            "Task_ID": "T18",
+            "Location": {
+                "Sheet": "Informatics Exam",
+                "Cell": "E5"
+            },
+            "Property": "Formula",
+            "Expected_Value": "=SUBTOTAL(109,Table5[April])"
+        },
+        {
+            "Task_ID": "T19",
+            "Location": {
+                "Sheet": "Informatics Exam",
+                "Cell": "F5"
+            },
+            "Property": "Formula",
+            "Expected_Value": "=SUBTOTAL(109,Table5[May])"
+        },
+        {
+            "Task_ID": "T20",
+            "Location": {
+                "Sheet": "Informatics Exam",
+                "Cell": "G5"
+            },
+            "Property": "Formula",
+            "Expected_Value": "=SUBTOTAL(109,Table5[June])"
+        },
+        {
+            "Task_ID": "T21",
+            "Location": {
+                "Sheet": "Informatics Exam",
+                "Cell": "H5"
+            },
+            "Property": "Formula",
+            "Expected_Value": "=SUBTOTAL(109,Table5[July])"
+        },
+        {
+            "Task_ID": "T22",
+            "Location": {
+                "Sheet": "Informatics Exam",
+                "Cell": "I5"
+            },
+            "Property": "Formula",
+            "Expected_Value": "=SUBTOTAL(109,Table5[August])"
+        },
+        {
+            "Task_ID": "T23",
+            "Location": {
+                "Sheet": "Informatics Exam",
+                "Cell": "J5"
+            },
+            "Property": "Formula",
+            "Expected_Value": "=SUBTOTAL(109,Table5[September])"
+        },
+        {
+            "Task_ID": "T24",
+            "Location": {
+                "Sheet": "Informatics Exam",
+                "Cell": "K5"
+            },
+            "Property": "Formula",
+            "Expected_Value": "=SUBTOTAL(109,Table5[October])"
+        },
+        {
+            "Task_ID": "T25",
+            "Location": {
+                "Sheet": "Informatics Exam",
+                "Cell": "L5"
+            },
+            "Property": "Formula",
+            "Expected_Value": "=SUBTOTAL(109,Table5[November])"
+        },
+        {
+            "Task_ID": "T26",
+            "Location": {
+                "Sheet": "Informatics Exam",
+                "Cell": "M5"
+            },
+            "Property": "Formula",
+            "Expected_Value": "=SUBTOTAL(109,Table5[December])"
+        },
+        {
+            "Task_ID": "T27",
+            "Location": {
+                "Sheet": "Informatics Exam"
+            },
+            "Property": "Chart_Series_Count",
+            "Expected_Value": "BarChart::3"
+        },
+        {
+            "Task_ID": "T28",
+            "Location": {
+                "Sheet": "Suppliers",
+                "Range": "F2:G11"
+            },
+            "Property": "Cell_Style_Block",
+            "Expected_Value": "Comma"
+        },
+        {
+            "Task_ID": "T29",
+            "Location": {
+                "Sheet": "Suppliers",
+                "Range": "F2:G11"
+            },
+            "Property": "Number_Format_Block",
+            "Expected_Value": "0.00"
+        },
+        {
+            "Task_ID": "T30",
+            "Location": {
+                "Sheet": "Suppliers",
+                "Cell": "L2"
+            },
+            "Property": "Formula",
+            "Expected_Value": "=MAX(Table38[STOCK VALUE])"
+        },
+        {
+            "Task_ID": "T31",
+            "Location": {
+                "Sheet": "GMetrix Account",
+                "Range": "F2:F4"
+            },
+            "Property": "Formula_Array",
+            "Expected_Value": "=AVERAGE(Table2[[#This Row],[January]:[April]])"
+        },
+        {
+            "Task_ID": "T32",
+            "Location": {
+                "Sheet": "GMetrix Account"
+            },
+            "Property": "Chart_Axis_Y_Title",
+            "Expected_Value": "Account"
+        },
+        {
+            "Task_ID": "T33",
+            "Location": {
+                "Sheet": "Used Car Sales",
+                "Cell": "A2"
+            },
+            "Property": "Align_Horizontal",
+            "Expected_Value": "left"
+        },
+        {
+            "Task_ID": "T34",
+            "Location": {
+                "Sheet": "Used Car Sales",
+                "Range": "I7:I31"
+            },
+            "Property": "Formula_Group",
+            "Expected_Value": "=G7*H7|=G8*H8|=G9*H9|=G10*H10|=G11*H11|=G12*H12|=G13*H13|=G14*H14|=G15*H15|=G16*H16|=G17*H17|=G18*H18|=G19*H19|=G20*H20|=G21*H21|=G22*H22|=G23*H23|=G24*H24|=G25*H25|=G26*H26|=G27*H27|=G28*H28|=G29*H29|=G30*H30|=G31*H31"
+        },
+        {
+            "Task_ID": "T35",
+            "Location": {
+                "Sheet": "Used Car Sales",
+                "Range": "A18:H19"
+            },
+            "Property": "Value_Block",
+            "Expected_Value": ""
+        },
+        {
+            "Task_ID": "T36",
+            "Location": {
+                "Sheet": "Used Car Sales",
+                "Range": "J18:J19"
+            },
+            "Property": "Value_Array",
+            "Expected_Value": ""
+        },
+        {
+            "Task_ID": "T37",
+            "Location": {
+                "Scope": "Workbook"
+            },
+            "Property": "Chart_Series_Formulas",
+            "Expected_Value": "Informatics Exam!$A$2|Informatics Exam!$A$3|Informatics Exam!$A$4|Informatics Exam!$B$1:$M$1|Informatics Exam!$B$1:$M$1|Informatics Exam!$B$1:$M$1|Informatics Exam!$B$2:$M$2|Informatics Exam!$B$3:$M$3|Informatics Exam!$B$4:$M$4::1"
+        },
+        {
+            "Task_ID": "T38",
+            "Location": {
+                "Scope": "Workbook"
+            },
+            "Property": "Chart_Series_Formulas",
+            "Expected_Value": "Informatics Exam!$A$5|Informatics Exam!$B$1:$M$1|Informatics Exam!$B$5:$M$5::1"
+        },
+        {
+            "Task_ID": "T39",
+            "Location": {
+                "Scope": "Workbook"
+            },
+            "Property": "Chart_Series_Formulas",
+            "Expected_Value": "Informatics Exam!$A$2:$A$4|Informatics Exam!$A$2:$A$4|Informatics Exam!$A$2:$A$4|Informatics Exam!$B$1|Informatics Exam!$B$2:$B$4|Informatics Exam!$C$1|Informatics Exam!$C$2:$C$4|Informatics Exam!$D$1|Informatics Exam!$D$2:$D$4::1"
+        }
+    ]
+}
